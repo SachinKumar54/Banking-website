@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Righteous&family=Sail&display=swap');
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Sail', cursive;*/
+
+body {
+	background-image: radial-gradient(#3d2e8a 1px, transparent 1px);
+	background-size: 40px 40px;
+	background-color: #171941;
+}
+
+.page-header {
+	height: 100vh;
+}
+
+.page-header {
+	min-height: 100vh;
+	max-height: 999px;
+	width: 100%;
+	padding: 0;
+	color: #ffffff;
+	position: relative;
+	overflow: hidden;
+}
+
+.header-filter {
+	position: relative;
+}
+
+.square1 {
+	height: 300px;
+	width: 300px;
+	opacity: 0.5;
+	left: 3%;
+	top: -21%;
+}
+
+.square2 {
+	height: 400px;
+	width: 400px;
+	opacity: 0.4;
+	right: -5%;
+	top: -12%;
+}
+
+.square3 {
+	height: 200px;
+	width: 200px;
+	opacity: 0.1;
+	left: -5%;
+	bottom: 0%;
+}
+
+.square4 {
+	height: 100px;
+	width: 100px;
+	opacity: 0.9;
+	right: 27%;
+	top: 70%;
+}
+
+.square5 {
+	height: 250px;
+	width: 250px;
+	opacity: 0.1;
+	left: 32%;
+	bottom: 29%;
+}
+
+.square6 {
+	left: 10%;
+	top: 35%;
+	height: 80px;
+	width: 80px;
+	opacity: 0.8;
+}
+
+.squares {
+	background: #ba54f5;
+	background: -webkit-linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+	background: -o-linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+	background: -moz-linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+	background: linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+	position: absolute;
+	transition: 0.5s ease-out;
+	overflow: hidden;
+	border-radius: 20%;
+}
+
+.home_container {
+	width: 100%;
+	height: 100%;
+}
+
+.home_content {
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	top: 50%;
+	/* position the top  edge of the element at the middle of the parent */
+	left: 50%;
+	/* position the left edge of the element at the middle of the parent */
+	transform: translate(-50%, -50%);
+}
+
+.home_content h1 {
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 60px;
+}
+
+.home_content h3 {
+	text-align-last: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.home_btns-rowdiv {
+	margin-top: 40px;
+}
+
+.home-btn {
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	background-image: linear-gradient(to bottom left, #00f2c3, #0098f0, #00f2c3);
+	background-size: 210% 210%;
+	background-position: top right;
+	background-color: #00f2c3;
+	padding: 10px 20px;
+	border-radius: 7px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.reg_Section {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.heading_h4 {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+.registration_card {
+	border-radius: 20px;
+	max-width: 600px;
+	padding: 40px;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	margin: auto;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.form-controll {
+	border-radius: 1px;
+	color: #8b95a5;
+	padding: 5px 12px;
+	font-size: 14px;
+	line-height: inherit;
+	-webkit-transition: 0.2s linear;
+	transition: 0.2s linear;
+	height: 42px;
+	border: 1px solid #e6e6e6;
+	background: none;
+	width: 100%;
+	padding: 0 18px;
+}
+
+form .form-row:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.form-controll:focus {
+	border-color: #3d2e8a;
+	color: #4d5259;
+	outline: none;
+	-webkit-box-shadow: 0 0 0 0.1rem rgba(51, 202, 187, 0);
+	box-shadow: 0 0 0 0.1rem rgba(101, 69, 235, 0);
+}
+
+.reg_btn {
+	border: 0px;
+	outline: none;
+}
+
+.reg_links a {
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+}
